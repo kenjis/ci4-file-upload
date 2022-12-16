@@ -37,6 +37,11 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+use App\Controllers\Upload;
+
+$routes->get('upload', [Upload::class, 'index']);
+$routes->post('upload/upload', [Upload::class, 'upload']);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
