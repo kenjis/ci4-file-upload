@@ -11,7 +11,8 @@
     "require-dev": {
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
-        "phpunit/phpunit": "^9.1"
+        "phpunit/phpunit": "^9.1",
+        "codeigniter4/devkit": "^1.1"
     },
     "suggest": {
         "ext-fileinfo": "Improves mime type detection for files"
@@ -35,5 +36,10 @@
         "slack": "https://codeigniterchat.slack.com"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    }
 }
