@@ -14,7 +14,7 @@ See <https://codeigniter4.github.io/CodeIgniter4/libraries/uploaded_files.html>.
 
 ```console
 $ git clone https://github.com/kenjis/ci4-file-upload
-$ cd /path/to/ci4-file-upload/
+$ cd ci4-file-upload/
 $ composer install
 ```
 
