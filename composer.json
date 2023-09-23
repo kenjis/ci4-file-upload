@@ -12,7 +12,8 @@
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.1",
-        "tatter/patches": "^2.0"
+        "tatter/patches": "^2.0",
+        "codeigniter4/devkit": "^1.1"
     },
     "suggest": {
         "ext-fileinfo": "Improves mime type detection for files"
